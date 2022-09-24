@@ -3,10 +3,12 @@
     "development"
   ],
   "hints": {
-    "axe/forms": [
+    "compat-api/css": [
       "default",
       {
-        "label": "off"
+        "ignore": [
+          "scroll-behavior"
+        ]
       }
     ]
   }
